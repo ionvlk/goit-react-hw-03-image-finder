@@ -21,14 +21,5 @@ ImageGallery.propTypes = {
   images: PropTypes.arrayOf(imagesPropTypes),
 };
 
-// ImageGallery.propTypes = {
-//   images: PropTypes.arrayOf(
-//     PropTypes.shape({
-//       id: PropTypes.string.isRequired,
-//       largeImageURL: PropTypes.string.isRequired,
-//       tags: PropTypes.string.isRequired,
-//     })
-//   ),
-// };
 
 export default ImageGallery;
